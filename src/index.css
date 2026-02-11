@@ -1,0 +1,69 @@
+/*lecture 2*/
+.card{
+  border: 1px solid rgb(136, 135, 135);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.318);
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  max-width: 250px;
+  display: inline-block;
+}
+
+.card .card-image{
+  max-width: 60%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.card .card-title{
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 0;
+  color: rgb(26, 26, 26);
+}
+
+.card .card-text{
+  font-family: Arial, Helvetica, sans-serif;
+  color: hsl(0, 0%, 30%);
+}
+
+/* lecture 3 */
+/* .button{
+  background-color: hsl(200, 100%, 50%);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+} */
+
+
+/* lecture 4*/
+.student{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2em;
+  padding: 10px;
+  border: 1px solid hsl(0, 0%, 50%, 0.8);
+}
+.student p{
+  margin: 0;
+}
+
+/*lecture 5*/
+.welcome-message{
+  font-size: 2.5cm;
+  background-color: hsl(102, 87%, 55%);
+  color: white;
+  padding:10px;
+  border-radius: 5px;
+  margin:0;
+}
+.login-prompt{
+  font-size: 2.5cm;
+  background-color: hsl(18, 96%, 56%);
+  color: white;
+  padding:10px;
+  border-radius: 5px;
+  margin:0;
+}
