@@ -17,6 +17,26 @@ import UserGreeting from "./UserGreeting.jsx"
 
 //lecture 6
 import List from "./List.jsx"
+//reusibel components
+const fruits = [
+  {id:1, name:"apple", calories:95},
+  {id:2, name:"banana", calories:120},
+  {id:3, name:"orange", calories:66},
+  {id:4, name:"papaya", calories:93}
+];
+const vegetabels = [
+  {id:1, name:"potato", calories:93},
+  {id:2, name:"carrot", calories:122},
+  {id:3, name:"spenish", calories:76},
+  {id:4, name:"tomato", calories:23}
+];
+
+//lesson 7
+import Button1 from "./Button1.jsx"
+
+//lesson 8
+import ProfilePicture from "./profilepicture.jsx";
+
 
 function App() {
   return (
@@ -59,7 +79,17 @@ function App() {
       <hr/>
 
       {/* Lecture 6 */}
-      <List/>
+      {fruits.length >0 ?<List items={fruits} category="Fruits"/>:null}
+      {vegetabels.length >0 ? <List items={vegetabels} category="Vegetables"/>:null}
+      <hr/>
+
+      {/* Lecture 7 */}
+      <Button1 />
+      <hr/>
+
+      {/* Lecture 8 */}
+      <ProfilePicture />
+
     </>
   );
 }
